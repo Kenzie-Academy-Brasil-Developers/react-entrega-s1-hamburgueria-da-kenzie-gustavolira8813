@@ -1,0 +1,21 @@
+.items {
+  list-style: none;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 200px;
+  flex: 230px 0 1;
+  margin: 5px;
+  border: 1px solid black;
+  height: 305px;
+  background-color: #b222229c;
+}
+
+.items button {
+  height: 50px;
+}
+.items > h3,
+.items > p {
+  margin: 0px;
+}

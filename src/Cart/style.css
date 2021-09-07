@@ -1,0 +1,9 @@
+.listaCart {
+  display: flex;
+  list-style: none;
+  font-size: medium;
+  flex-wrap: wrap;
+}
+.listaCart li {
+  margin: 5px;
+}
