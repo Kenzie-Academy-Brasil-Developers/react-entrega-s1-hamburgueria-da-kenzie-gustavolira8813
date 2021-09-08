@@ -66,7 +66,24 @@
   display: flex;
   flex-direction: column;
 }
+
+@media only screen and (max-width: 760px) {
+  .main {
+    flex-direction: column;
+  }
+  .content {
+    background-size: cover;
+  }
+  .valorTotal {
+  }
+}
 .btnPesquisar {
   width: 100px;
   border-radius: 8px;
+  background-color: firebrick;
+}
+
+.pesquisar {
+  color: darkorange;
+  border-radius: 10px;
 }

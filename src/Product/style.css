@@ -14,8 +14,53 @@
 
 .items button {
   height: 50px;
+  background: burlywood;
 }
 .items > h3,
 .items > p {
   margin: 0px;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+  background: url("./b1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 230px;
+  height: 170px;
+}
+.img1 {
+  background-image: url("./front.jpeg");
+  background-color: white;
+  background-size: 450px;
+}
+.img2 {
+  background-image: url("./junior.png");
+  background-color: white;
+}
+.img3 {
+  background-image: url("./furioso.jpg");
+}
+.img4 {
+  background-image: url("./combo.png");
+}
+.img5 {
+  background-image: url("./guarana.jpg");
+}
+.img6 {
+  background-image: url("./coca.png");
+}
+.img7 {
+  background-image: url("./fanta.png");
+}
+.img8 {
+  background-image: url("./shake.jpg");
+}
+.items > h3 {
+  font-size: smaller;
 }
